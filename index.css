@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+.sec-one{
+    
+    background-color: ;
+    color: rgb(234, 240, 240);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.container {
+ padding: 50px;
+}
+.sec-one--name{
+   font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+.sec-one--role{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.sec-one--contact{
+    background-color: orangered;
+    color: aliceblue;
+    text-decoration-line: none;
+    padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 3px;
+      padding-bottom: 3px;
+      font-size: 20px;
+
+    }
+.sec-one--contact:hover{
+    background-color: gold;
+    color: black;
+}
+
+.sec-two,.sec-three,.sec-four,.sec-five,.sec-six{
+
+    margin-top: 20px;
+}
+.sec-six a{
+ 
+    color: aqua;
+}
+.sec-three li,.sec-four li,.sec-five li{
+
+    list-style: none;
+}
+.sec-six{
+
+    background-color: black;
+    color: aliceblue;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.sec-three--title,.sec-four--title,.sec-four--desc,.sec-four--web{
+
+    padding-bottom: 5px;
+    font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sec-three--title{
+    font-size: 25px;
+    color: darkblue ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec-three{
+    background-color: lightcoral;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+  vertical-align: top;
+}
+.sec-three :hover{
+    transform: scale(1.03);
+}
+.sec-four{
+    background-color: rgb(0, 200, 255);
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+   height: 200px;
+   border-radius: 10px;
+   transition: transform 0.3s ease;
+}
+.sec-four :hover{
+    transform: scale(1.03);
+}
+.sec-three li{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec-two{
+    color: aliceblue;
+}
+.sec-four--title{
+ color: rgb(255, 0, 0);
+ font-size: 25px;
+ 
+}
